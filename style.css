@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.text{
+    font-size: 2.5rem;
+    text-align: center;
+    margin-top: 17rem;
+}
+.akay{
+    display: flex;
+    font-size: 5rem;
+    text-align: center;
+    justify-content: center;
+    margin-top: 15rem;
+}
+.one{
+    height: 5rem;
+    /* border: 2px solid black; */
+    margin-left: 5px;
+    color: red;
+    overflow: hidden;
+   
+}
+p{
+    animation: akay 8s 0s   ease-in-out infinite;
+}
+@keyframes akay {
+    0%{
+        transform: translateY(0)
+    }    
+    100%{
+        transform: translateY(-280px);
+    }
+   /* 100%{
+        transform: translateY(0)
+    }*/
+}
+@keyframes kay {
+    
+}
